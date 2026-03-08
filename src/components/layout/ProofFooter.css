@@ -1,0 +1,29 @@
+.proof-footer {
+  padding: var(--space-3) var(--space-4);
+  background-color: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+}
+
+.proof-footer__content {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+.proof-footer__item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.proof-footer__bullet {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: 1;
+}
+
+.proof-footer__text {
+  font-family: var(--font-body);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}

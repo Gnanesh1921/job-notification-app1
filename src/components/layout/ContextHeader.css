@@ -1,0 +1,19 @@
+.context-header {
+  padding: var(--space-5) var(--space-4);
+  max-width: var(--max-width-text);
+}
+
+.context-header__title {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-2xl);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.context-header__subtitle {
+  font-family: var(--font-body);
+  font-size: var(--font-size-md);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}

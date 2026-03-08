@@ -1,0 +1,8 @@
+.primary-workspace {
+  flex: 0 0 70%;
+  padding: var(--space-4);
+  background-color: var(--color-background);
+  border-right: 1px solid var(--color-border);
+  overflow-y: auto;
+  min-height: calc(100vh - var(--top-bar-height) - 80px);
+}

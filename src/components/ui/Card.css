@@ -1,0 +1,18 @@
+.card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+}
+
+/* Padding Variants */
+.card--padding-small {
+  padding: var(--space-2);
+}
+
+.card--padding-medium {
+  padding: var(--space-3);
+}
+
+.card--padding-large {
+  padding: var(--space-4);
+}

@@ -1,0 +1,37 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--top-bar-height);
+  padding: 0 var(--space-4);
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.top-bar__left,
+.top-bar__center,
+.top-bar__right {
+  display: flex;
+  align-items: center;
+}
+
+.top-bar__app-name {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.top-bar__progress {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+}
+
+.top-bar__status-badge {
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--border-radius);
+  color: white;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+}

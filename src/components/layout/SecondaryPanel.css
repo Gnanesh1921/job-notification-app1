@@ -1,0 +1,7 @@
+.secondary-panel {
+  flex: 0 0 30%;
+  padding: var(--space-4);
+  background-color: var(--color-surface);
+  overflow-y: auto;
+  min-height: calc(100vh - var(--top-bar-height) - 80px);
+}

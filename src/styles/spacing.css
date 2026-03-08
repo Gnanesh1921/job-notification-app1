@@ -1,0 +1,61 @@
+/* Spacing System */
+
+.space-1 {
+  margin: var(--space-1);
+}
+
+.space-2 {
+  margin: var(--space-2);
+}
+
+.space-3 {
+  margin: var(--space-3);
+}
+
+.space-4 {
+  margin: var(--space-4);
+}
+
+.space-5 {
+  margin: var(--space-5);
+}
+
+.padding-1 {
+  padding: var(--space-1);
+}
+
+.padding-2 {
+  padding: var(--space-2);
+}
+
+.padding-3 {
+  padding: var(--space-3);
+}
+
+.padding-4 {
+  padding: var(--space-4);
+}
+
+.padding-5 {
+  padding: var(--space-5);
+}
+
+.gap-1 {
+  gap: var(--space-1);
+}
+
+.gap-2 {
+  gap: var(--space-2);
+}
+
+.gap-3 {
+  gap: var(--space-3);
+}
+
+.gap-4 {
+  gap: var(--space-4);
+}
+
+.gap-5 {
+  gap: var(--space-5);
+}
