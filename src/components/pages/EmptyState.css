@@ -1,0 +1,35 @@
+.empty-state-page {
+  flex: 1;
+  padding: var(--space-5);
+  background-color: var(--color-background);
+}
+
+.empty-state-page__content {
+  max-width: var(--max-width-text);
+  margin: 0 auto;
+}
+
+.empty-state-page__card {
+  text-align: center;
+}
+
+.empty-state-page__icon {
+  font-size: 48px;
+  margin-bottom: var(--space-3);
+  opacity: 0.6;
+}
+
+.empty-state-page__title {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xl);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.empty-state-page__text {
+  font-family: var(--font-body);
+  font-size: var(--font-size-md);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}

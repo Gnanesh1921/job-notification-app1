@@ -4,6 +4,7 @@ import './styles/global.css';
 import './styles/typography.css';
 import './styles/spacing.css';
 import TopNavigation from './components/layout/TopNavigation';
+import LandingPage from './components/pages/LandingPage';
 import Dashboard from './components/pages/Dashboard';
 import Saved from './components/pages/Saved';
 import Digest from './components/pages/Digest';
@@ -20,7 +21,8 @@ function App() {
         
         <div className="app__content">
           <Routes>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/saved" element={<Saved />} />
             <Route path="/digest" element={<Digest />} />
             <Route path="/settings" element={<Settings />} />
